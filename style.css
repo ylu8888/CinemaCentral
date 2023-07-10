@@ -1,0 +1,65 @@
+* {
+    color: white;
+    
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: Times New Roman;
+
+}
+
+
+body{
+    background-color: rgb(26, 27, 29);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    
+}
+
+.container{
+    margin-top: 20px;
+    max-width: 60%;
+    width: 600px;
+    background-color: #030f17;
+    border-radius: 18px;
+}
+
+#search-bar{
+    color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+#search-button{
+    color: black;
+    height: 40px;
+    width: 60px;
+    border-radius: 13px;
+    padding-left: 0px;
+    outline: none;
+
+}
+
+#movie-name{
+    font-size: 20px;
+}
+
+#image{
+    border-radius: 18px;
+}
+
+#title{
+    color: purple;
+    font-size: 28px;
+}
